@@ -1,0 +1,52 @@
+[
+  {
+    "guid": {
+      "a": "163c96a2-688b-8e09-b42b-21ea5e3fbd4d",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Zombie_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7291053909320318978",
+    "skinObjGuid": "Guid(4678591891410206954, 2420077443488153490)",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "1d86a43b-550d-e791-e7a0-26ac2efaea80"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_NormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_MRAOTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_EmissiveTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_RimHighlightTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_ThinFilmTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_RadianceTexture",
+        "guid": "00000000-0000-0000-0000-000000000800"
+      }
+    ]
+  }
+]

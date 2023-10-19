@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "24a45cd8-4465-42dc-d4dd-1a2067c457a0",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Zombie",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

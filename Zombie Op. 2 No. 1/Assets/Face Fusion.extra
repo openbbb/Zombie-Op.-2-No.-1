@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "8686e619-5a40-c404-d87d-6c930543e1c5",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Face Fusion",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

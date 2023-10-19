@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "67bd4f3e-4540-a852-a212-432b4353fc3b",
+      "b": ""
+    },
+    "extraType": "JSAssetSegmentation",
+    "name": "Hand Segmentation Texture",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "ScreenRenderTexture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

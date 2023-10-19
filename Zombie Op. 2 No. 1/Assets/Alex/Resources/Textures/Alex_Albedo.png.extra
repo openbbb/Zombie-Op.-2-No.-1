@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "2438e2a8-6d1a-a96f-1e2f-fc9ff0027a25",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Alex_Albedo",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7283793281937555458",
+    "compressionType": 1,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

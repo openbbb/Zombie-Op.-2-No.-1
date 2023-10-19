@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "0f0bf79a-6d32-2521-59cb-1a2680da651c",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Alex_Model",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7283793281937555458",
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [],
+    "meshGUIDs": [
+      "f4f7db42-f1e2-ee6d-d2f3-100c43460d47"
+    ],
+    "animazGUIDs": []
+  }
+]

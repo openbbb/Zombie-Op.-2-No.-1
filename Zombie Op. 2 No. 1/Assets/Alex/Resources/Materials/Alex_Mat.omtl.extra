@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "d8fbd061-df11-6590-7865-b34987c56721",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Alex_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7283793281937555458",
+    "skinObjGuid": "Guid(4800045606732776499, 13167669017130361248)",
+    "references": []
+  }
+]

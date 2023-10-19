@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "48d2716d-fea2-d350-3b1d-14b33e6597d2",
+      "b": ""
+    },
+    "extraType": "JSAssetSegmentation",
+    "name": "Clothing Segmentation Texture",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "ScreenRenderTexture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

@@ -1,0 +1,250 @@
+%YAML 1.1
+--- !Prefab &1
+name: ""
+guid: {a: 5439967734834151881, b: 8487807889544722866}
+entities:
+  - __class: Entity
+    name: Alex
+    guid: {a: 4721050057697474400, b: 4567682883146849718}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: JSScriptComponent
+        name: ""
+        guid: {a: 4978216595544811352, b: 11229770203035586966}
+        enabled: true
+        path: js/FullBodyAvatarDrive.js
+        properties:
+          __class: Map
+          Head: {localId: 9}
+          L_Thigh: {localId: 10}
+          L_UpperArm: {localId: 8}
+          Pelvis: {localId: 5}
+          R_Thigh: {localId: 11}
+          R_UpperArm: {localId: 7}
+          Spine1: {localId: 6}
+          followBody: true
+    layer: 0
+  - __class: Entity
+    name: Alex_Model
+    guid: {a: 5546818918148726894, b: 17646644456139141795}
+    selfvisible: true
+    components:
+      - {localId: 3}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 4937311954364279658, b: 12195932919867072145}
+    selfvisible: true
+    components:
+      - {localId: 4}
+    layer: 0
+  - __class: Entity
+    name: Hips
+    guid: {a: 5016281137419632018, b: 13241777482826358944}
+    selfvisible: true
+    components:
+      - {localId: 5}
+    layer: 0
+  - __class: Entity
+    name: Spine
+    guid: {a: 5216608413502763824, b: 4432699889555737269}
+    selfvisible: true
+    components:
+      - {localId: 6}
+    layer: 0
+  - __class: Entity
+    name: RightArm
+    guid: {a: 5003737595372238192, b: 612704871794386590}
+    selfvisible: true
+    components:
+      - {localId: 7}
+    layer: 0
+  - __class: Entity
+    name: LeftArm
+    guid: {a: 4919717638077446847, b: 4968024089999210127}
+    selfvisible: true
+    components:
+      - {localId: 8}
+    layer: 0
+  - __class: Entity
+    name: Head
+    guid: {a: 4759373599746138650, b: 14339243564692375205}
+    selfvisible: true
+    components:
+      - {localId: 9}
+    layer: 0
+  - __class: Entity
+    name: LeftUpLeg
+    guid: {a: 5663557968430189964, b: 7722035984688161175}
+    selfvisible: true
+    components:
+      - {localId: 10}
+    layer: 0
+  - __class: Entity
+    name: RightUpLeg
+    guid: {a: 4685810215221168391, b: 9994778241470102956}
+    selfvisible: true
+    components:
+      - {localId: 11}
+    layer: 0
+  - __class: Entity
+    name: Character_Mesh
+    guid: {a: 5646082889436442241, b: 11467250699463491761}
+    selfvisible: true
+    components:
+      - {localId: 12}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 4770975311190458261, b: 14725173044988861579}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 0f0bf79a-6d32-2521-59cb-1a2680da651c--Character_Mesh.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !Transform &2
+name: ""
+guid: {a: 4808163116629682821, b: 9239196744963835298}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: ""
+guid: {a: 4951990261885567760, b: 1388075854693748880}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+children:
+  - {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: SkeletonAndRenderRoot
+guid: {a: 5543369221124000420, b: 6441450868107253121}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+children:
+  - {localId: 5}
+  - {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: Hips
+guid: {a: 5658484373075391357, b: 13747606389746418082}
+enabled: true
+localPosition: {x: 0, y: 7.34375, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+children:
+  - {localId: 6}
+  - {localId: 10}
+  - {localId: 11}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: Spine
+guid: {a: 5015520122022024143, b: 2074462910430160796}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: -3.707003e-08, x: 0.5298945, y: 0.8480635, z: -2.316242e-08}
+parent: {localId: 5}
+children:
+  - {localId: 7}
+  - {localId: 8}
+  - {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: RightArm
+guid: {a: 5744994445400356868, b: 17753480533238378397}
+enabled: true
+localPosition: {x: 7.12781, y: 2.384186e-07, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -3.707003e-08, x: 0.5298945, y: 0.8480635, z: -2.316242e-08}
+parent: {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: LeftArm
+guid: {a: 5460662938457087931, b: 11744179665462971532}
+enabled: true
+localPosition: {x: 4.387662, y: 5.617304, z: 5.684342e-14}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: Head
+guid: {a: 4974697473200298743, b: 18038375922876643741}
+enabled: true
+localPosition: {x: 6.881197, y: 3.356681, z: -5.275145e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &10
+name: LeftUpLeg
+guid: {a: 4933963729976981188, b: 138069721943912629}
+enabled: true
+localPosition: {x: 1.1875, y: 0.15625, z: -1e-15}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: -3.707003e-08, x: 0.5298945, y: 0.8480635, z: -2.316242e-08}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: RightUpLeg
+guid: {a: 5379770571529732423, b: 16524588697568753815}
+enabled: true
+localPosition: {x: -1.1875, y: 0.15625, z: -1e-15}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: -3.707003e-08, x: 0.5298945, y: 0.8480635, z: -2.316242e-08}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &12
+name: Character_Mesh
+guid: {a: 5462598136430287397, b: 11298434598599220892}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 0.1, y: 0.1, z: 0.1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic

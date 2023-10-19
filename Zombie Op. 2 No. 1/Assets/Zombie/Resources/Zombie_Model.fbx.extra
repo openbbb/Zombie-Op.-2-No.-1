@@ -1,0 +1,33 @@
+[
+  {
+    "guid": {
+      "a": "b22179f2-9658-24aa-1c96-a56a013833b7",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Zombie_Model",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7291053909320318978",
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [],
+    "meshGUIDs": [
+      "587d763f-b2fd-5438-c0ec-d38c3e63d3cf",
+      "9968aaf0-6391-f79a-f167-a9b1ea0abe69",
+      "ee258898-2965-82fd-d78a-a9c2e75d1295",
+      "501a609f-3fe9-72c8-7aba-3d1d02acead1",
+      "3930c274-25d2-2240-fcfb-60e02bdd72dd",
+      "2eb9d19a-c023-f839-6e39-8cb70c16e0ce",
+      "28820852-3bb4-1ad3-b2a7-3c5d61b030bc"
+    ],
+    "animazGUIDs": []
+  }
+]
